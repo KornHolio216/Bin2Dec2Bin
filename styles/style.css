@@ -1,7 +1,8 @@
 body{
-    background-color: #181818;
-    color: #ffffff;
     font-family: 'Lobster', cursive;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .container{
@@ -10,6 +11,8 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: #181818;
+    color: #ffffff;
 }
 
 .appTitle{
@@ -35,4 +38,26 @@ input{
 
 .dec2bin{
     margin-top: 100px;
+}
+
+img{
+    display: none;
+}
+
+@media (min-width:801px){
+    #main{
+        width: 100vw;
+        height: 100vh;
+    }
+    img{
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        position: absolute;
+        z-index: -100;
+        width: 100vw;
+        height: 100vh;
+    }
 }
