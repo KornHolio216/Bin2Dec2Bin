@@ -1,0 +1,38 @@
+body{
+    background-color: #181818;
+    color: #ffffff;
+    font-family: 'Lobster', cursive;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.appTitle{
+    font-size: 48px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+input{
+    margin-top: 75px;
+    background: none;
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    width: 250px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.dec2bin{
+    margin-top: 100px;
+}
