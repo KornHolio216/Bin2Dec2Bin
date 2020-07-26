@@ -13,6 +13,7 @@ body{
     text-align: center;
     background-color: #181818;
     color: #ffffff;
+    height: 100vh;
 }
 
 .appTitle{
@@ -40,24 +41,6 @@ input{
     margin-top: 100px;
 }
 
-img{
-    display: none;
-}
-
 @media (min-width:801px){
-    #main{
-        width: 100vw;
-        height: 100vh;
-    }
-    img{
-        user-select: none;
-        -moz-user-select: none;
-        -webkit-user-drag: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-        position: absolute;
-        z-index: -100;
-        width: 100vw;
-        height: 100vh;
-    }
+
 }
