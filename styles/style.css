@@ -23,8 +23,9 @@ body{
     text-align: center;
 }
 
-h2{
+h2, input{
     font-size: 36px;
+    color: #ffffff;
 }
 
 input{
@@ -34,7 +35,6 @@ input{
     border-bottom: 3px solid #ffffff;
     width: 250px;
     height: 40px;
-    color: #ffffff;
     font-size: 36px;
     text-align: center;
     font-family: 'Lobster', cursive;
