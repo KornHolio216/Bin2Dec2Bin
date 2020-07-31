@@ -3,6 +3,7 @@ body{
     overflow: hidden;
     margin: 0;
     padding: 0;
+    background-color: #181818;
 }
 
 .container{
@@ -10,14 +11,16 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    background-color: #181818;
     color: #ffffff;
-    height: 100vh;
+    height: 70vh;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .appTitle{
     font-size: 48px;
+    color: #ffffff;
+    text-align: center;
 }
 
 h2{
@@ -37,10 +40,20 @@ input{
     font-family: 'Lobster', cursive;
 }
 
-.dec2bin{
-    margin-top: 100px;
+.bin2dec, .dec2bin{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (min-width:801px){
-
+    body{
+        background-image: url("/img/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }
