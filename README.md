@@ -1,5 +1,4 @@
 ﻿# Bin2Dec2Bin Converter
-Convert from binary to decimal and vice versa
 ## Description
 Converting binary to decimal and conversely.
 
